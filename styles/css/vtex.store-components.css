@@ -6,13 +6,16 @@
     border: 2px solid black;
     padding: 24px;
 }
+.infoCardContainer{
+    max-width: 1260px;
+}
 
 .infoCard{
     max-width: 1260px;
     margin: 0 auto;
     padding: 0px;
 }
-.infoCard:hover{
+.infoCardCallActionContainer :global(.vtex-button):hover{
     background-color: white;
 }
 
