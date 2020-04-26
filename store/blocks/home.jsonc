@@ -5,7 +5,7 @@
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "shelf"
+      "shelf#demo"
     ]
   },
   "flex-layout.row":{
@@ -77,7 +77,7 @@
         "blockClass": "metal"
       }
     },
-    "shelf": {
+    "shelf#demo": {
       "blocks": ["product-summary.shelf"],
       "props": {
         "category": 1,
