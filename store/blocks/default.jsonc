@@ -33,5 +33,9 @@
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
   }
 }
