@@ -14,11 +14,13 @@
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
-            "header-row#main"
+            "header-row#main",
+            "header-row#menu"
         ]
     },
     "header-layout.mobile": {
         "children": [
+            "drawer",
             "header-row#notification",
             "header-row#main-mobile",
             "header-row#search"
@@ -33,56 +35,63 @@
     },
     "header-row#main": {
         "children": [
-          "logo",
-          "header-spacer",
-          "search-bar",
-          "minicart",
-          "login"
+            "logo",
+            "header-spacer",
+            "search-bar",
+            "minicart",
+            "login",
+            "header-spacer",
+            "vtex.menu@2.x:menu#categories"
         ],
         "props": {
-          "inverted": true,
-          "sticky": true,
-          "fullWidth": false
+            "inverted": true,
+            "sticky": true,
+            "fullWidth": false
         }
     },
     "header-row#main-mobile": {
         "children": [
-          "logo",
-          "header-spacer",
-          "minicart",
-          "login"
+            "drawer",
+            "logo",
+            "header-spacer",
+            "minicart",
+            "login"
         ],
-      
         "props": {
-          "sticky": true,
-          "inverted":true
+            "sticky": true,
+            "inverted": true
         }
-      },
-      
-      "header-row#search": {
+    },
+    "header-row#search": {
         "children": [
-          "search-bar"
+            "search-bar"
         ],
         "props": {
-          "sticky": true
+            "sticky": true
         }
-      },
-      "login":{
+    },
+    "login": {
         "props": {
-          "showIconProfile": true,
-          "iconLabel": "Login"
+            "showIconProfile": true,
+            "iconLabel": "Login"
         }
-      },
-      
-      "logo":{
+    },
+    "logo": {
         "props": {
-          "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
+            "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
         }
-      },
-      "rich-text#header": {
+    },
+    "rich-text#header": {
         "props": {
-          "text": "**Free Shipping on orders over $50**",
-          "textPosition": "CENTER"
+            "text": "**Free Shipping on orders over $50**",
+            "textPosition": "CENTER"
         }
-      }
+    },
+    "header-row#menu": {
+        "children": [
+            "header-spacer",
+            "vtex.menu@2.x:menu#categories",
+            "header-spacer"
+        ]
+    }
 }
