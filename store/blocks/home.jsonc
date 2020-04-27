@@ -9,7 +9,8 @@
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
-      "store.product"
+      "store.product",
+      "store.custom#about-us"
       
     ]
   },
