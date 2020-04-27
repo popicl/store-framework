@@ -10,8 +10,7 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
       "store.product",
-      "store.custom#about-us"
-      
+      "store.custom#about-us"   
     ]
   },
   "flex-layout.row": {
