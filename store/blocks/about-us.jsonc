@@ -4,6 +4,7 @@
       "flex-layout.row#about-us"
     ]
   },
+ 
   "flex-layout.row#about-us": {
     "children": [
       "image#about-us",
@@ -36,5 +37,5 @@
       "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
       "maxHeight": "600px"
     }
-  }
- }
+  } 
+}
