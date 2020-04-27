@@ -78,12 +78,12 @@
     },
     "sku-selector": {
       "props": {
-        "visibility":"always",
-        "visibleVariations":[],
+        
+        // "visibleVariations":[],
         "initialSelection": "empty",
         "showVariationsErrorMessage":true,
-        "showValueForVariation": "all",
-        "hideImpossibleCombinations": false
+        "showValueForVariation": "none"
+        
       }
     }
 }
