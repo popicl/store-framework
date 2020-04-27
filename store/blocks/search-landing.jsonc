@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.profm.ro%2Fstiri%2Fentertainment%2Fo-poza-face-cat-1000-de-cuvinte-dar-imaginea-asta-sigur-face-mai-mult-recunosti-vedeta-foto-20662&psig=AOvVaw1tW9hp2FB73EBGt1gQQyPt&ust=1588081063613000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDjvI_diOkCFQAAAAAdAAAAABAJ",
+            "minWidth ": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        }
+    }
+}
